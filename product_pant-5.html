@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/9087921e2c.js" crossorigin="anonymous"></script>
+    <!--Fonts.google-->
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Viet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap" rel="stylesheet">
+    <!-- Add bootstrap and jsquery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Pants</title>
+    <link rel="icon" type="image/x-icon" href="/images/verelle-logo.png"></head>
+  <body style="background-color: #f8f9fa;">
+
+  <!--section 1 NAVBAR-->
+
+    <section class="section1">
+        
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">         
+                        <div id="myNav" class="overlay">
+                          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                          <div class="overlay-content">
+                            <a href="verella.html">Home</a>
+                            <a href="shop.html">Shop All</a>
+                            <a href="contact.html">Contact</a>
+                            <a href="faq.html">FAQ</a>
+                          </div>
+                        </div>
+                        <span id="menu" style="cursor:pointer" onpointerenter="menuHover()" onpointerleave="menuHoverleave()" onclick="openNav()">&#9776; <span class="menu-tag">Menu</span></span> 
+                        <a class="logo navbar-brand mx-auto" href="verella.html"><img src="images/verelle.png" class="logo" alt="Banana.com"></a>    
+                        <div class="nav-right">
+                          <div class="nav-lt">
+                            
+                           
+                            <div class="tooltip2">
+                              <a href="#"><i class="fa-regular fa-heart"></i></a>
+                              <span class="tooltiptext2">Wishlist</span>
+                            </div>
+                            <div class="tooltip3">
+                              <a href="#"><i onpointerenter="" class="fa-solid fa-cart-shopping"></i></a>
+                              <span class="tooltiptext3">Cart</span>
+                            </div>
+                            <div class="tooltip4">
+                              <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                              <span class="tooltiptext4">Login</span>
+                            </div>
+                          </div>
+                        </div>      
+                  </div>
+              </nav>
+              <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light hover-nav2">
+                <div class="container-fluid">
+                  <div id="categories" class="hover-catergory">
+                    <div class="hover-content">
+                      <div class="container">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+    </section>
+
+    <!-- SECTION2 HOME-Terms and Conditions -->
+
+    <section class="about-section2">
+        <div class="home-about">
+            <div>
+             <a href="verella.html"> <i class="fa fa-home" aria-hidden="true"></i></a> / <a href="/shop.html">Shop All</a> <span> / Pants / Comfy marl joggers</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION-3 -->
+    <section class="top-section-3">
+        <div class="container-fluid">
+            <div class="section-3-content_top">
+                <div class="row">
+                    <div class="col-lg-8 col-md-6 col-sm-12 col-12 scrollable-column">
+                      <div class="row row-cols-1 g-1">
+                        <div class="col-lg-6 col-md-12 col-12 ">
+                          <div class="product-image">
+                            <div class="product-image-wrapper">
+                              <div class="img-w">
+                                <img class="look-img product-img-des" src="/images/shopping/pants/pants5/pants-5a.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 ">
+                          <div class="product-image">
+                            <div class="product-image-wrapper">
+                              <div class="img-w">
+                                <img class="look-img product-img-des col_hidden_img" src="/images/shopping/pants/pants5/pants-5c.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 ">
+                          <div class="product-image">
+                            <div class="product-image-wrapper">
+                              <div class="img-w">
+                                <img class="look-img product-img-des col_hidden_img" src="/images/shopping/pants/pants5/pants-5d.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-12 ">
+                          <div class="product-image">
+                            <div class="product-image-wrapper">
+                              <div class="img-w">
+                                <img class="look-img product-img-des col_hidden_img" src="/images/shopping/pants/pants5/pants-5e.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-12 ">
+                            <div class="product-image">
+                              <div class="product-image-wrapper">
+                                <div class="img-w">
+                                  <img class="look-img product-img-des col_hidden_img" src="/images/shopping/pants/pants5/pants-5b.jpg" alt="">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-12 ">
+                            <div class="product-image">
+                              <div class="product-image-wrapper">
+                                <div class="img-w">
+                                  <img class="look-img product-img-des col_hidden_img" src="/images/shopping/pants/pants5/pants-5f.jpg" alt="">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 fixed-column">
+                      <div class="product_tags">
+                        <div class="p_header">
+                          <h4>Summer Collection</h4>
+                        </div>
+                        <div class="p_name">
+                          <h5>Comfy marl joggers</h5>
+                        </div>
+                        <div class="MRP">
+                          MRP inclusive of all taxes
+                        </div>
+                        <div class="mrp_price">
+                          <p>₹1299</p>
+                        </div>
+                        <div class="color_p">
+                          <h5>Light Grey</h5>
+                        </div>
+                        <div class="color_img-wrapper">
+                         <a href=""><img class="color-img" src="/images/shopping/pants/pants5/pants-5b.jpg" alt=""></a> 
+                        </div>
+                      </div>
+
+                      <div class="size_wrapper">
+                        <h5>Sizes</h5>
+                        <div class="size_buttons">
+                          <button onclick="toggleActive(this)" class="size_btn">S</button>
+                          <button onclick="toggleActive(this)" class="size_btn">M</button>
+                          <button onclick="toggleActive(this)" class="size_btn">L</button>
+                          
+                        </div>
+
+                        <div class="size_guide-but">
+                          <div class="info-icon">
+                            <img class="info_icon" src="images/shopping/hot/ruler.png" alt="">
+                          </div>
+                          <a href="javascript:void(0)" onclick="openSizeChart()">Size Guide</a>
+                        </div>
+                      </div>
+
+                      <div class="add_to_cart_btn">
+                        <button class="add_tc_btn">
+                          <div class="bag-icon">
+                            <img class="bag_icon" src="/images/shopping/hot/icons8-shopping-bag-96.png" alt="Cart">
+                          </div>
+                          <h6>Add To Cart</h6></button>
+                      </div>
+
+                      <div class="stan_delivery">
+                        <div class="info-icon">
+                          <img class="info_icon" src="images/shopping/hot/info.png" alt="">
+                        </div>
+                        <h5>Standard delivery in 7-10 days</h5>
+                      </div>
+
+                      <div class="description_about">
+                          <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                  <div class="description-header"><h5>Description and Fit</h5></div>
+                                  </button>
+                                </h3>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    Dive into relaxation with our Comfy Marl Joggers, a must-have addition to your wardrobe. Crafted for both comfort and style, these joggers provide the perfect blend of relaxation and on-trend fashion. Elevate your casual look with this versatile piece that's ideal for lounging or stepping out in style.                                    <br>
+                                   <p class="article_no">Article number: 122345</p> 
+                                    <br>
+                                    <div class="sizes_type">
+                                      <b>Size</b>:
+                                      <br>
+                                      <b>S</b>: Width: 62 cm, Length 73 cm
+                                      <br>
+                                      <b>M</b>: Width: 66 cm, Length 73 cm
+                                      <br>
+                                      <b>L</b>: Width: 70 cm, Length 73 cm
+                                      <br>
+                                      <b>Length</b>: Regular
+                                      <br>
+                                      <b>Fit</b>: Loose fit
+                                      <br>
+                                      <b>Style</b>: Gathered detail
+                                      <br>
+                                      <b>Concept</b>: SUMMER COLLECTION
+                                      <br>
+                                      <b>Price (MRP)</b> : Rs. 1299.00 incl. of all taxes
+                                      <br>
+                                      <b>Country of production</b> : India
+                                      <br>
+                                      <b>Common generic name</b> : Joggers
+                                      <br>
+                                      <b>Net Quantity</b> : 1 N
+                                      <br>
+                                       <b>Manufactured by</b> : Verelle Fashion
+                                      <br>
+                                      <b>Marketed and imported by</b> : Verelle Fashion
+                                    </div>
+                                                          
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="description-header"><h5>Material</h5></div>
+                                  </button>
+                                </h3>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <h6>Composition</h6>
+                                    Cotton 100%
+                                    
+                                    <h6 style="padding-top: 10px;">Materials in this product explained</h6>
+                                    
+                                    Cotton is a natural fiber derived from the fluffy seed fibers of the cotton plant (genus Gossypium). Unlike synthetic fibers, cotton is not produced from crude oil; instead, it is a renewable and biodegradable resource. The cotton plant is cultivated for its soft and fluffy fibers, which are used to create a wide range of textiles and products. This natural fiber has been a staple in the textile industry for centuries, known for its breathability, comfort, and versatility. Embraced for its sustainable and eco-friendly qualities, cotton stands in contrast to synthetic fibers like polyester, making it a popular choice for those who prioritize natural and renewable materials.
+                                  </div>
+                              </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h3 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <div class="description-header"><h5>Care Guide</h5></div>
+                                  </button>
+                                </h3>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <h6>Care Instructions</h6>
+                                    <ul>
+                                      <li>Line Dry</li>
+                                      <li>Only non-chlorine bleach when needed</li>
+                                      <li>Machine wash at 40 Degrees</li>
+                                      <li>Medium Iron</li>
+                                      <li>Can be Dry Cleaned</li>
+                                    </ul>                                
+                                 </div>
+                               </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <!-- OFFERS -->
+
+                      <div class="offers_">
+                        <div class="offers_wrapper">
+                          <div class="offer_container">
+                            <div class="no_of_offers">
+                          </div>
+                          <span>2 Offers Available</span>
+                          </div>
+                          <div class="offers_content">
+                            <div class="offer_value">
+                              <div class="offer_value1">Flat 10% off </div>
+                              
+                              <div class="box_offer_value">
+                                <div>VERELLENEW</div>
+                              </div>
+                            </div>
+                            <div class="offer_condition">On a minimum order value of Rs 2000</div>
+                          </div>
+                          <div class="offers_content">
+                            <div class="offer_value">
+                              <div class="offer_value1">Upto 15% off </div>
+                              
+                              <div class="box_offer_value">
+                                <div>HDFCCC15</div>
+                              </div>
+                            </div>
+                            <div class="offer_condition">Upto Rs 750 on a minimum order value of Rs 1500 using HDFC credit card.</div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <!-- REVIEWS -->
+                      <div class="rating_ ">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                <div class="description-header"><h5>Ratings and Reviews</h5></div>
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                              <div class="accordion-body">
+                                <div class="ratings_container">
+                                  <div class="review_number">4.5</div>
+                                  <div class="stars_">
+                                    <div class="ratings">
+                                      <div class="empty-stars"></div>
+                                      <div class="full-stars" style="width:90%"></div>
+                                    </div>
+                                    <div class="verified_buyers">
+                                      (30 Verified Buyers)
+                                    </div>  
+                                  </div>
+                                </div>
+                                <div class="reviews_container" >
+                                  <div class="review_header">
+                                    <h5>Customer Reviews</h5>
+                                  </div>
+                                  <div class="customer_container">
+                                    <div class="rating_cust_container">
+                                      <div class="rating_cust">
+                                        <div>5</div>
+                                        <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="review_context_container">
+                                      <div class="review_context">
+                                        <p>Wearing these joggers feels like being wrapped in a cloud! The light grey marl gives them a trendy edge, and the comfort is beyond words. Verelle Fashion hit the mark with these – perfect for those laid-back days when you want to feel cozy yet look put together.</p>
+                                      </div>
+                                      <div class="review_by">
+                                        <p>Snighdha| 1 October 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="customer_container">
+                                    <div class="rating_cust_container">
+                                      <div class="rating_cust">
+                                        <div>5</div>
+                                        <i class="fa-solid fa-star" style="color: #ffffff;"></i>
+                                      </div>
+                                    </div>
+                                    
+                                    <div class="review_context_container">
+                                      <div class="review_context">
+                                        <p>I never thought joggers could attract so many compliments until I got these! The light grey marl sets them apart, and people constantly ask where I got them. Verelle Fashion has truly created a piece that's both comfortable and eye-catching. Love, love, love!</p>
+                                      </div>
+                                      <div class="review_by">
+                                        <p>Aliyah Galhotra | 25 September 2023</p>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+
+
+
+                      <!-- Authentic product Banner -->
+                      <div class="authentic_product">
+                          <div class="authentic-wrapper">
+                            <div class="row">
+                              <div class="col-4 col-4_bor">
+                                <div class="authentic_1">
+                                  <div class="behil"><img class="authentic-img" src="images/shopping/hot/medal.png" alt="Medal"></div>
+                                  <h5>Authentic <br> Product</h5>
+                                </div>
+                              </div>
+                              <div class="col-4 col-4_bor">
+                                <div class="authentic_1">
+                                  <div class="behil"><img class="authentic-img" src="images/shopping/hot/exchangeandreturn.svg" alt="Return"></div>
+                                  <h5>Easy <br> Returns</h5>
+                                </div>
+                              </div>
+                              <div class="col-4">
+                                <div class="authentic_1">
+                                  <div class="behil"><img class="authentic-img" src="images/shopping/hot/securepayment.svg" alt="Payment"></div>
+                                  <h5>Secure <br> Payments</h5>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            
+                          
+                          </div>
+                      </div>
+
+                      <!-- Wishlist -->
+                      <div class="wishlist_heart_right">
+                        <div  class="wishlist-heart" onclick="toggleHeart()" id="heartLink">
+                          <i class="fa fa-heart" id="heartIcon"></i>
+                        </div>
+                       
+                        
+                        
+                      </div>
+
+                    </div>
+
+                    <!-- SIZE-CHART -->
+                    <div class="size_chart">
+                      <div class="container">
+
+                      <div id="sizeChartNav" class="size-overlay">
+                        <a href="#" class="size-closebtn" onclick="closeSizeChart()">&times;</a>
+                        <div class="size-overlay-content">
+                          <div class="size_chart_heading">
+                            <h2>Tops</h2>
+                          </div>
+                          <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                <div class="description-header"><h5><b>How To Measure</b></h5></div>
+                                </button>
+                              </h3>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <div class="img-measure">
+                                    <img class="img_measure" src="images/shopping/hot/measure-human.png" alt="">
+                                  </div>
+
+                                  <div class="measure_list">
+
+                                    <div class="measuring_123">
+                                      <div class="number_">
+                                        <div class="numbering"> 1 </div> 
+                                    </div>
+                                      <div class="body_part">
+                                        <div class="part_header">Chest</div>
+                                        <div><p>Measure your chest over the fullest part of your bust while wearing a bra that fits.</p></div>
+                                       </div>
+                                    </div>
+
+                                    <div class="measuring_123">
+                                     <div class="number_">
+                                      <div class="numbering"> 2 </div> 
+                                  </div>
+                                    <div class="body_part">
+                                      <div class="part_header">Waist</div>
+                                      <div><p>Measure your waist at the narrowest point.</p></div>
+                                     </div>
+                                    </div>
+
+                                    <div class="measuring_123">
+                                     <div class="number_">
+                                      <div class="numbering"> 3 </div> 
+                                  </div>
+                                    <div class="body_part">
+                                      <div class="part_header">Arm length</div>
+                                      <div><p>Measure from shoulder to wrist.</p></div>
+                                     </div>
+                                     </div>
+
+                                     <div class="measuring_123">
+                                     <div class="number_">
+                                      <div class="numbering"> 4 </div> 
+                                  </div>
+                                    <div class="body_part">
+                                      <div class="part_header">Low hip</div>
+                                      <div><p>Measure your low hip around the fullest part of your hip.</p></div>
+                                     </div>
+                                     </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="size_range_wrapper">
+                            <div class="size_range_heading">
+                              <h3>Size Range</h3>
+                            </div>
+                            <div>
+                              <div class="regular_size">
+                                <h5>Regular</h5>
+                              </div>
+                            </div>
+                            <div class="table_sizes">
+                              <table>
+                                <tr>
+                                  <th class="white_col" style="visibility: hidden;">h</th>
+                                  <th class="white_col white_col_mid">S</th>
+                                  <th class="white_col white_col_mid">M</th>
+                                  <th class="white_col white_col_mid">L</th>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">UK</td>
+                                  <td class="green_col">8-10</td>
+                                  <td class="green_col">12-14</td>
+                                  <td class="green_col">16-18</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">EUR</td>
+                                  <td class="orange_col">36-38</td>
+                                  <td class="orange_col">40-42</td>
+                                  <td class="orange_col">44-46</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Chest cm</td>
+                                  <td class="green_col">82-90</td>
+                                  <td class="green_col">90-97</td>
+                                  <td class="green_col">98-107</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Chest inch</td>
+                                  <td class="orange_col">32-36</td>
+                                  <td class="orange_col">36-39</td>
+                                  <td class="orange_col">39-42</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Waist cm</td>
+                                  <td class="green_col">66-74</td>
+                                  <td class="green_col">74-82.5</td>
+                                  <td class="green_col">82.5-93</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Waist inch</td>
+                                  <td class="orange_col">26-29</td>
+                                  <td class="orange_col">29-32½</td>
+                                  <td class="orange_col">32½-36½</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Arm length cm</td>
+                                  <td class="green_col">57</td>
+                                  <td class="green_col">57</td>
+                                  <td class="green_col">57</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Arm length inch</td>
+                                  <td class="orange_col">22½</td>
+                                  <td class="orange_col">22½</td>
+                                  <td class="orange_col">22½</td>
+                                </tr>
+
+                                <tr>
+                                  <td class="white_col">Low hip cm</td>
+                                  <td class="green_col">87-94.5</td>
+                                  <td class="green_col">94.5-100.5</td>
+                                  <td class="green_col">100.5</td>
+                                </tr>
+
+                                
+                                <tr>
+                                  <td class="white_col">Low hip inch</td>
+                                  <td class="orange_col">34¼-37¼</td>
+                                  <td class="orange_col">37¼-39½	</td>
+                                  <td class="orange_col">39½-42¼	</td>
+                                </tr>
+                              </table>
+                            </div>
+                            
+                          </div>
+
+                          <div id="bodyOverlay"></div>
+
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                </div>
+
+                <div class="similar_products">
+                  <div class="container">
+                    <div class="similar_heading">
+                      <h3>SIMILAR PRODUCTS</h3>
+                    </div>
+                    <div class="row">
+                      
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-6 items_box_similar_col">
+                        <div class="items_box_similar">
+                              <div class="item-wrapper1 ">
+                                  <a href="#" target="_blank">
+                                      <div class="img-wrapper-1 ">
+                                                  <img width="100%" src="images/shopping/pants/pants8/pants-8b.jpg" alt="Alternate Dress">
+                                      </div>
+                                  </a>
+                                  <div class="text-body">
+                                    <div class="new-arrival-tag">
+                                      <h6>Summer Collection</h6>
+                                    </div>
+                                      <div class="brand-name-shopping">
+                                          <a href="#" target="_blank"><h5>High-waisted joggers</h5></a>
+                                      </div>
+                                      <div class="price">
+                                        <h6>₹1299</h6>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-6 items_box_similar_col">
+                        <div class="items_box_similar">
+                              <div class="item-wrapper1 ">
+                                  <a href="#" target="_blank">
+                                      <div class="img-wrapper-1 ">
+                                                  <img width="100%" src="images/shopping/pants/pants2/pant-2b.jpg" alt="Alternate Dress">
+                                                                                        
+                                      </div>
+                                  </a>
+                                  <div class="text-body">
+                                    <div class="new-arrival-tag">
+                                      <h6>Summer Collection</h6>
+                                    </div>
+                                      <div class="brand-name-shopping">
+                                          <a href="#" target="_blank"><h5>Twill cargo trousers</h5></a>
+                                      </div>
+                                      <div class="price">
+                                        <h6>₹1499</h6>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                            
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-6 items_box_similar_col">
+                              <div class="items_box_similar">
+                                    <div class="item-wrapper1 ">
+                                        <a href="#" target="_blank">
+                                            <div class="img-wrapper-1 ">
+                                              <img width="100%" src="images/shopping/tops/top8/top-8b.jpg" alt="Alternate Dress">                                                                                             
+                                            </div>
+                                        </a>
+                                        <div class="text-body">
+                                          <div class="new-arrival-tag">
+                                            <h6>Summer Collection</h6>
+                                          </div>
+                                            <div class="brand-name-shopping">
+                                                <a href="#" target="_blank"><h5>Oversized printed T-shirt</h5></a>
+                                            </div>
+                                            <div class="price">
+                                              <h6>₹699</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+  
+
+                      </div>
+
+                      <div class="col-lg-3 col-md-3 col-sm-6 col-6 items_box_similar_col">
+                        <div class="items_box_similar">
+                              <div class="item-wrapper1 ">
+                                  <a href="#" target="_blank">
+                                      <div class="img-wrapper-1 ">
+                                                  <img width="100%" src="images/shopping/pants/pants10/pants-10b.jpg" alt="Alternate Dress">
+                                                  <div class="img-text-discount-shop">-40%</div>
+                                      </div>
+                                  </a>
+                                  <div class="text-body">
+                                    <div class="new-arrival-tag">
+                                      <h6>Summer Collection</h6>
+                                    </div>
+                                      <div class="brand-name-shopping">
+                                          <a href="#" target="_blank"><h5>Parachute trousers</h5></a>
+                                      </div>
+                                      <div class="price">
+                                        <div class="discount-red"><h6>₹1259</h6></div>
+                                        <div class="discount-cut-line"><h6>₹1799</h6></div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+
+                  </div>
+                </div>
+            </div>
+        </div>
+
+            <div id="imageModal" class="modal">
+              <span class="close">&times;</span>
+              <img id="modalImage" class="modal1-content">
+          </div>
+          <div id="scroll-to-top">
+            <a href="#top">^</a>
+          </div>
+    </section>
+
+
+      <!-- FOOTER-DELIVERY -->
+        
+      <section class="footer-delivery">
+          <div class="container-fluid foot-delivery">
+              <div class="row deliv">
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/free-delivery.png" alt="">
+                          <h6 ><b>Free Shipping</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/exchange.png" alt="">
+                          <h6><b>Easy Exchange</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/achievement.png" alt="">
+                          <h6><b>Assured Quality</b></h6>
+  
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/love.png" alt="">
+                          <h6><b>Hand Picked</b></h6>
+  
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+      
+
+    <!-- footer-0 FOLLOW US-->
+    <section class="footer-0">
+            <h1>Follow Us</h1>
+          <div class="social-icons">
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-facebook-f"></i></a>  
+              <div class="tooltiptext6">Facebook</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-twitter"></i></a>
+              <div class="tooltiptext6">Twitter</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-instagram"></i></a>
+              <div class="tooltiptext6">Instagram</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-google"></i></a>
+              <div class="tooltiptext6">Google</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-pinterest-p"></i></a>
+              <div class="tooltiptext6">Pinterst</div>
+            </div>
+          </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer1">
+      <div class="footer-top">
+          <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>Customer Service</h5>
+              <li>
+              <a class="return" href="contact.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Contact</a>
+              </li>
+              <li>
+              <a class="return" href="return.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Return and Exchange</a>
+              </li>
+              <li>
+              <a class="return" href="student.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Student Discount</a>
+              </li>
+              <li>
+              <a class="return" href="gift.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Gift Cards</a>
+              </li>
+              <li>
+                <a class="return" href="faq.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> FAQ</a>
+              </li>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>About Us</h5>
+              <li>
+                  <a class="return" href="about.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> About Us</a>
+              </li>
+              <li>
+                <a class="return" href="cookie.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Cookie Policy</a>
+            </li>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>My Account</h5>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> My Account</a>
+              </li>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Order History</a>
+              </li>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Newsletters</a>
+              </li>
+              </div>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-0"></div>
+          <div class="col-lg-5 col-md-5 col-sm-10">
+              <div class="heading"><h4>SIGN UP FOR OUR NEWSLETTER</h4></div>
+              <p>Stay updated on events, new arrivals and more.</p>
+                  <form method="post">
+                  <div class="email-submit">
+                      <input type="email" name="Email" placeholder="Email Address..." id="email-form">
+                      <a href=""><button type="submit" class="subscribe">Subscribe</button></a>
+                  </div>
+              </form>
+          </div>
+          </div>
+      </div>
+      <div class="navbar navbar-light bg-light fotter-bottom">
+          <div class="copyright">
+              <p>COPYRIGHT © 2023. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="footer-right">
+              <div>
+              <a href="privacypolicy.html" class="underline"><p class="Terms1">Privacy Policy<span style="visibility: hidden;">.</span></p> </a>
+              </div>
+              <div>
+              <a href="Terms.html" class="underline"><p class="Terms">Terms and Conditions</p></a>
+              </div>
+          </div>
+          
+      </div>
+      </footer>
+    
+
+
+
+
+    <script>
+      var heartIcon = document.getElementById('heartIcon');
+      var heartLink = document.getElementById('heartLink');
+      heartLink.addEventListener('click', function () {
+        heartIcon.classList.toggle('active');
+        if (heartIcon.classList.contains('active')) {
+          heartLink.style.color = 'red'; // Change to red or desired color
+        }
+      });
+
+
+
+
+
+
+
+    </script>
+<script src="/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

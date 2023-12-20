@@ -1,0 +1,1541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/9087921e2c.js" crossorigin="anonymous"></script>
+    <!--Fonts.google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Viet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap" rel="stylesheet">
+    <!-- Add bootstrap and jsquery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Shop All</title>
+    <link rel="icon" type="image/x-icon" href="/images/verelle-logo.png"></head>
+  <body style="background-color: #f8f9fa;">
+
+  <!--section 1 NAVBAR-->
+
+  <section class="section1">
+        
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">         
+                <div id="myNav" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                    <a href="verella.html">Home</a>
+                    <a href="shop.html">Shop All</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="faq.html">FAQ</a>
+                  </div>
+                </div>
+                <span id="menu" style="cursor:pointer" onpointerenter="menuHover()" onpointerleave="menuHoverleave()" onclick="openNav()">&#9776; <span class="menu-tag">Menu</span></span> 
+                <a class="logo navbar-brand mx-auto" href="verella.html"><img src="images/verelle.png" class="logo" alt="Banana.com"></a>    
+                <div class="nav-right">
+                  <div class="nav-lt">
+                    
+                   
+                    <div class="tooltip2">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <span class="tooltiptext2">Wishlist</span>
+                    </div>
+                    <div class="tooltip3">
+                      <a href="#"><i onpointerenter="" class="fa-solid fa-cart-shopping"></i></a>
+                      <span class="tooltiptext3">Cart</span>
+                    </div>
+                    <div class="tooltip4">
+                      <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                      <span class="tooltiptext4">Login</span>
+                    </div>
+                  </div>
+                </div>      
+          </div>
+      </nav>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light hover-nav2">
+        <div class="container-fluid">
+          <div id="categories" class="hover-catergory">
+            <div class="hover-content">
+              <div class="container">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+</section>
+    <!-- SECTION2 HOME-Terms and Conditions -->
+
+    <section class="about-section2">
+        <div class="home-about">
+            <div>
+             <a href="verella.html"> <i class="fa fa-home" aria-hidden="true"></i></a> / Shop All
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- SECTION-4 -->
+
+    <section class="shop-section4">
+        <div class="container">
+
+            <div class="row">
+              <div class="col-lg-12 col-md-12 view-all">
+                  <div class="header-shop-page">
+                    <div class="shop-heading">
+                      <h1>Explore Our Collection</h1>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <div class="row">
+            <div class="col-lg-8 col-md-12 col-sm-12 col-12 filter-bar">
+              <div class="row filter_cat-1">
+                <div class=" col-sm-4 col-4 col-lg-4 col-md-4 category-select1 custom-select-container">
+                  
+                      <label for="form-select" class="label-category-select">CATEGORIES</label>
+                </div>
+                <div class="col-sm-8 col-8 col-lg-8 col-md-8" style="display: flex; justify-content: end">
+                  <div class="custom-select">
+                    <button class="select-button" role="combobox" aria-labelledby="select button" aria-haspopup="listbox" aria-expanded="false" aria-controls="select-dropdown">
+                      <span class="selected-value">All</span>
+                      <span class="arrow"></span>
+                    </button>
+                    <ul class="select-dropdown" role="listbox" id="select-dropdown">
+                      <li role="option">
+                        <input type="radio" id="all" name="category" value="all" />
+                        <label for="all">All</label>
+                      </li>
+                      <li role="option">
+                        <input type="radio" id="dress" name="category" value="dress" />
+                        <label for="dress">Dress</label>
+                      </li>
+                      <li role="option">
+                        <input type="radio" id="top" name="category" value="top" />
+                        <label for="top">Top</label>
+                      </li>
+                      <li role="option">
+                        <input type="radio" id="pants" name="category" value="pants" />
+                        <label for="pants">Pants</label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                  
+              </div>
+
+              <div class="row filter_cat-1 ">
+                <div class="category-select2 custom-select-container col-sm-4 col-lg-4 col-md-4 col-4">
+                  <label for="form-select" class="label-category-select">SORT BY</label>
+                </div>
+                <div class="col-lg-8 col-sm-8 col-md-8 col-8 " style="display: flex; justify-content: end">
+                  <div class="custom-select0">
+                    <button class="select-button0" role="combobox" aria-labelledby="select button" aria-haspopup="listbox" aria-expanded="false" aria-controls="select-dropdown0">
+                      <span class="selected-value0">Relevance</span>
+                      <span class="arrow"></span>
+                    </button>
+                    <ul class="select-dropdown0" role="listbox" id="select-dropdown0">
+                      <li role="option">
+                        <input type="radio" id="relevance" name="sort-box" value="relevance" />
+                        <label for="relevance">Relevance</label>
+                      </li>
+                      <li role="option">
+                        <input type="radio" id="low-to-high" name="sort-box" value="low-to-high" />
+                        <label for="low-to-high">Low To High</label>
+                      </li>
+                      <li role="option">
+                        <input type="radio" id="high-to-low" name="sort-box" value="high-to-low" />
+                        <label for="high-to-low">High To Low</label>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                
+                  </div>
+                
+                  </div>
+
+                </div>     
+              
+
+                  
+                  <div class="col-lg-4 col-md-12 col-sm-12 col-12 toggle-but"> 
+                      <div id="sale-only-button" class="sale-only-button1">    
+                        <div class="sale-only-1">
+                          <h3>SALE ONLY </h3>  
+                        </div>
+                           
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                      </div> 
+                      <button id="toggle-button">Model</button>
+                    
+
+                  </div>
+              </div>
+          </div>
+
+                <div class="shop-items">
+                  <div class="product-list1 container">
+                    <div class="row" id="product-list">
+
+
+
+                    
+
+                      <!-- TOP2 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top" data-category="top" data-relevance="3" data-price="599">
+                        <div class="product-wrapper">
+                            <a href="products_top-2.html" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top2/top-2a.jpg" alt="Top">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top2/top-2b.jpg" alt="Alternate Top">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="products_top-2.html" target="_blank"><h5>Gathered jersey top</h5></a>
+                                </div>
+                                <div class="price">
+                                    <h6>₹599</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- PANTS5 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants" data-category="pants" data-relevance="6" data-price="1299">
+                        <div class="product-wrapper">
+                            <a scroll-behavior: smooth href="product_pant-5.html" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants5/pants-5a.jpg" alt="Trouser">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants5/pants-5b.jpg" alt="Alternate Trouser">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a scroll-behavior: smooth href="product_pant-5.html" target="_blank"><h5>Comfy marl joggers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <h6>₹1299</h6>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>            
+
+                      <!-- DRESS4 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product dress discounted" data-discount="20" data-category="dress" data-relevance="9" data-price="1279">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/dress/dress4/hm-dress4a.jpeg" alt="Dress">
+                                            <div class="img-text-discount-shop">-20%</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/dress/dress4/hm-dress4b.jpg" alt="Alternate Dress">
+                                            <div class="img-text-discount-shop">-20%</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Cotton halterneck dress</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹1279</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1599</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- TOP3 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top discounted" data-discount="30" data-category="top" data-relevance="4" data-price="1119">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top3/top-3a.jpg" alt="Top">
+                                            <div class="img-text-discount-shop">-30%</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top3/top-3b.jpg" alt="Alternate Top">
+                                            <div class="img-text-discount-shop">-30%</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Knit Club </h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Rib-knit sweetheart-neck top</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹1119</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1599</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+                      <!-- DRESS7 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product dress discounted" data-discount="20" data-category="dress" data-relevance="5" data-price="2319">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/dress/dress7/hm-dress7a.jpeg" alt="Dress">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          <div class="img-text-discount-shop">-20%</div>
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/dress/dress7/hm-dress7b.jpg" alt="Alternate Dress">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          <div class="img-text-discount-shop">-20%</div>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Lace Wardrobe</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Black Embroidered dress</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹2319</h6></div>
+                                  <div class="discount-cut-line"><h6>₹2899</h6></div>
+                                    
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+
+                      <!-- PANTS2 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants" data-category="pants" data-relevance="10" data-price="1499">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants2/pant-2a.jpg" alt="Trouser">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants2/pant-2b.jpg" alt="Alternate Trouser">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Twill cargo trousers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <h6>₹1499</h6>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+                      
+                      <!-- DRESS6 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product dress" data-category="dress" data-relevance="8" data-price="1899">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/dress/dress6/hm-dress6a.jpeg" alt="Dress">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/dress/dress6/hm-dress6b.jpg" alt="Alternate Dress">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Drawstring-detail dress</h5></a>
+                                </div>
+                                <div class="price">
+                                    <h6>₹1899</h6>
+                                </div>
+                               
+                            </div>
+                        </div>
+                      </div>
+
+                       <!-- PANTS8 -->
+                       <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants" data-category="pants" data-relevance="9" data-price="1299">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants8/pants-8a.jpg" alt="Trouser">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants8/pants-8b.jpg" alt="Alternate Trouser">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>      
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>High-waisted joggers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <h6>₹1299</h6>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- TOP10 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top discounted" data-discount="40" data-category="top" data-relevance="4" data-price="839">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top10/top-10a.jpg" alt="Top">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top10/top-10b.jpg" alt="Alternate Top">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Bold House</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Sweetheart-neck bustier top</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹839</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1399</h6></div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>                    
+
+                      <!-- PANTS7 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants" data-category="pants" data-relevance="9" data-price="2299">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants7/pants-7a.jpg" alt="Trouser">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants7/pants-7b.jpg" alt="Alternate Trouser">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Cotton corduroy dungarees</h5></a>
+                                </div>
+                                <div class="price">
+                                  <h6>₹2299</h6>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- TOP4 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top discounted" data-discount="30" data-category="top" data-relevance="4" data-price="839">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top4/top-4a.jpg" alt="Top">
+                                            <div class="img-text-discount-shop">-30%</div>
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top4/top-4b.jpg" alt="Alternate Top">
+                                            <div class="img-text-discount-shop">-30%</div>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Knit Club</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Rib-knit one-shoulder top</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹839</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1199</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- DRESS2 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product dress discounted" data-discount="40" data-category="dress" data-relevance="6" data-price="1379">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/dress/dress2/hm-dress2a.jpeg" alt="Dress">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/dress/dress2/hm-dress2b.jpeg" alt="Alternate Dress">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Asymmetric satin dress</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹1379</h6></div>
+                                  <div class="discount-cut-line"><h6>₹2299</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>
+                      <!-- TOP7 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top discounted" data-category="top" data-relevance="2" data-price="629">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top7/top-7a.jpg" alt="Top">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                            <div class="img-text-discount-shop">-30%</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top7/top-7b.jpg" alt="Alternate Top">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                            <div class="img-text-discount-shop">-30%</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Mesh Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Gathered mesh crop top</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹629</h6></div>
+                                  <div class="discount-cut-line"><h6>₹899</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- DRESS1 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product dress" data-category="dress" data-relevance="8" data-price="1399">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/dress/dress1/hm-dress1a.jpeg" alt="Dress">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/dress/dress1/hm-dress1b.jpeg" alt="Alternate Dress">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Drawstring-detail dress</h5></a>
+                                </div>
+                                <div class="price">
+                                    <h6>₹1399</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>
+
+                      <!-- TOP8 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top" data-category="top" data-relevance="9" data-price="699">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top8/top-8a.jpg" alt="Top">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top8/top-8b.jpg" alt="Alternate Top">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Oversized printed T-shirt</h5></a>
+                                </div>
+                                <div class="price">
+                                    <h6>₹699</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- DRESS8 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product dress discounted" data-discount="30" data-category="dress" data-relevance="1" data-price="1609">
+                      <div class="product-wrapper">
+                          <a href="#" target="_blank">
+                              <div class="img-wrapper-1 flip-container">
+                                  <div class="flipper">
+                                      <div class="front">
+                                          <img width="100%" src="images/shopping/dress/dress8/8a.jpeg" alt="Dress">
+                                          <div class="img-text-discount-shop">-30%</div>
+                                          <div class="img-text-best-seller-shop">
+                                            <div class="video-wrapper">
+                                              <video playsinline autoplay muted loop>
+                                                <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                              </video>
+                                              <div class="video-header-best-seller">BEST SELLER</div>
+                                            </div>
+                                          </div>
+                                      </div>
+                                      <div class="back">
+                                          <img width="100%" src="images/shopping/dress/dress8/8b.jpg" alt="Alternate Dress">
+                                          <div class="img-text-discount-shop">-30%</div>
+                                          <div class="img-text-best-seller-shop">
+                                            <div class="video-wrapper">
+                                              <video playsinline autoplay muted loop>
+                                                <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                Your browser does not support the video tag.
+                                              </video>
+                                              <div class="video-header-best-seller">BEST SELLER</div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                  </div>
+                                  <div class="add-to-cart">
+                                      <div class="row add-row">
+                                        <div class="col-8">
+                                          <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                        </div>
+                                      <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                        <span class="tooltip5">
+                                          <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                        </span>
+                                      </div> 
+                                    </div>     
+                                    </div>
+                              </div>
+                          </a>
+                          <div class="text-body">
+                            <div class="new-arrival-tag">
+                              <h6>Slip Dress</h6>
+                            </div>
+                              <div class="brand-name-shopping">
+                                  <a href="#" target="_blank"><h5>Rhinestone-embellished slip dress</h5></a>
+                              </div>
+                              <div class="price">
+                                <div class="discount-red"><h6>₹1609</h6></div>
+                                <div class="discount-cut-line"><h6>₹2299</h6></div>
+                                  
+                              </div>
+                              
+                          </div>
+                      </div>
+                      </div> 
+
+                      <!-- PANTS6 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants discounted" data-discount="40" data-category="pants" data-relevance="7" data-price="959">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants6/pants-6a.jpg" alt="Trouser">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants6/pants-6b.jpg" alt="Alternate Trouser">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Leather Store</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>90s Straight Coated Trousers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹959</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1599</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- TOP13 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top" data-category="top" data-relevance="10" data-price="899">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top13/top-13a.jpg" alt="Top">
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top13/top-13b.jpg" alt="Alternate Top">
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Wrapover ribbed top</h5></a>
+                                </div>
+                                <div class="price">
+                                    <h6>₹899</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- DRESS9 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product  dress discounted" data-discount="40" data-category="dress" data-relevance="8" data-price="1619">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/dress/dress9/9a.jpeg" alt="Dress">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                            <div class="img-text-discount-shop">-40%</div>
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/dress/dress9/9b.jpg" alt="Alternate Dress">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                            <div class="img-text-discount-shop">-40%</div>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Bold House</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Frill-trimmed chiffon dress</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹1619</h6></div>
+                                  <div class="discount-cut-line"><h6>₹2699</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- TOP9 --> 
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top" data-category="top" data-relevance="9" data-price="799">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top9/top-9a.jpg" alt="Top">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top9/top-9b.jpg" alt="Alternate Top">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Leather Store</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Coated corset top</h5></a>
+                                </div>
+                                <div class="price">
+                                    <h6>₹799</h6>
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+
+                      <!-- PANTS1 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants discounted" data-discount="40" data-category="pants" data-relevance="5" data-price="779">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants1/pant-1a.jpg" alt="Trouser">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                        </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants1/pant-1b.jpg" alt="Alternate Trouser">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Button-front trousers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹779</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1299</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- PANTS4 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants" data-category="pants" data-relevance="3" data-price="1499">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants4/pants-4a.jpg" alt="Trouser">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants4/pants-4b.jpg" alt="Alternate Trouser">
+                                            <div class="img-text-best-seller-shop">
+                                              <div class="video-wrapper">
+                                                <video playsinline autoplay muted loop>
+                                                  <source src="images/shopping/best-seller/vecteezy_fire-frame-loop-effect-burning-background-with-fire_10366199_307.mp4" type="video/mp4">
+                                                  Your browser does not support the video tag.
+                                                </video>
+                                                <div class="video-header-best-seller">BEST SELLER</div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Canvas cargo trousers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <h6>₹1499</h6>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- TOP12 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product top discounted" data-category="top" data-relevance="5" data-price="959">
+                        <div class="product-wrapper ">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/tops/top12/top-12a.jpg" alt="Top">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                            <div class="img-text-discount-shop">-20%</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/tops/top12/top-12b.jpg" alt="Alternate Top">
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                            <div class="img-text-discount-shop">-20%</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>The Lace Wardrobe</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Long-sleeved lace top</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹959</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1199</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div> 
+
+                      <!-- PANTS10 -->
+                      <div class="col-lg-3 col-md-4 col-sm-6 col-6 product pants discounted" data-discount="40" data-category="pants" data-relevance="6" data-price="1259">
+                        <div class="product-wrapper">
+                            <a href="#" target="_blank">
+                                <div class="img-wrapper-1 flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <img width="100%" src="images/shopping/pants/pants10/pants-10a.jpg" alt="Trouser">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                          </div>
+                                        <div class="back">
+                                            <img width="100%" src="images/shopping/pants/pants10/pants-10b.jpg" alt="Alternate Trouser">
+                                            <div class="img-text-discount-shop">-40%</div>
+                                            <div class="img-text-trending-shop">TRENDING</div>
+                                          </div>
+                                    </div>
+                                    <div class="add-to-cart">
+                                        <div class="row add-row">
+                                          <div class="col-8">
+                                            <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                                          </div>
+                                        <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                                          <span class="tooltip5">
+                                            <a href="#"><i class="fa-regular fa-heart " style="color: #fffcf4; font-size: 20px;"></i></a>
+                                          </span>
+                                        </div> 
+                                      </div>     
+                                      </div>
+                                </div>
+                            </a>
+                            <div class="text-body">
+                              <div class="new-arrival-tag">
+                                <h6>Summer Collection</h6>
+                              </div>
+                                <div class="brand-name-shopping">
+                                    <a href="#" target="_blank"><h5>Parachute trousers</h5></a>
+                                </div>
+                                <div class="price">
+                                  <div class="discount-red"><h6>₹1259</h6></div>
+                                  <div class="discount-cut-line"><h6>₹1799</h6></div>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                      </div>
+                  
+                      </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div id="scroll-to-top">
+          <a href="#top">^</a>
+        </div>
+        
+    <!-- The modal for zoomed-in image -->
+    
+    </section>
+
+
+    <!-- FOOTER-DELIVERY -->
+        
+      <section class="footer-delivery">
+          <div class="container-fluid foot-delivery">
+              <div class="row deliv">
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/free-delivery.png" alt="">
+                          <h6 ><b>Free Shipping</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/exchange.png" alt="">
+                          <h6><b>Easy Exchange</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/achievement.png" alt="">
+                          <h6><b>Assured Quality</b></h6>
+  
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/love.png" alt="">
+                          <h6><b>Hand Picked</b></h6>
+  
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+      
+
+    <!-- footer-0 FOLLOW US-->
+    <section class="footer-0">
+            <h1>Follow Us</h1>
+          <div class="social-icons">
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-facebook-f"></i></a>  
+              <div class="tooltiptext6">Facebook</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-twitter"></i></a>
+              <div class="tooltiptext6">Twitter</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-instagram"></i></a>
+              <div class="tooltiptext6">Instagram</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-google"></i></a>
+              <div class="tooltiptext6">Google</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-pinterest-p"></i></a>
+              <div class="tooltiptext6">Pinterst</div>
+            </div>
+          </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer1">
+      <div class="footer-top">
+          <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>Customer Service</h5>
+              <li>
+              <a class="return" href="contact.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Contact</a>
+              </li>
+              <li>
+              <a class="return" href="return.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Return and Exchange</a>
+              </li>
+              <li>
+              <a class="return" href="student.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Student Discount</a>
+              </li>
+              <li>
+              <a class="return" href="gift.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Gift Cards</a>
+              </li>
+              <li>
+                <a class="return" href="faq.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> FAQ</a>
+              </li>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>About Us</h5>
+              <li>
+                  <a class="return" href="about.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> About Us</a>
+              </li>
+              <li>
+                <a class="return" href="cookie.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Cookie Policy</a>
+            </li>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>My Account</h5>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> My Account</a>
+              </li>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Order History</a>
+              </li>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Newsletters</a>
+              </li>
+              </div>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-0"></div>
+          <div class="col-lg-5 col-md-5 col-sm-10">
+              <div class="heading"><h4>SIGN UP FOR OUR NEWSLETTER</h4></div>
+              <p>Stay updated on events, new arrivals and more.</p>
+                  <form method="post">
+                  <div class="email-submit">
+                      <input type="email" name="Email" placeholder="Email Address..." id="email-form">
+                      <a href=""><button type="submit" class="subscribe">Subscribe</button></a>
+                  </div>
+              </form>
+          </div>
+          </div>
+      </div>
+      <div class="navbar navbar-light bg-light fotter-bottom">
+          <div class="copyright">
+              <p>COPYRIGHT © 2023. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="footer-right">
+              <div>
+              <a href="privacypolicy.html" class="underline"><p class="Terms1">Privacy Policy<span style="visibility: hidden;">.</span></p> </a>
+              </div>
+              <div>
+              <a href="Terms.html" class="underline"><p class="Terms">Terms and Conditions</p></a>
+              </div>
+          </div>
+          
+      </div>
+      </footer>
+    
+<script src="shop-index(js).js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="contact.scss" rel="stylesheet/scss" type="text/css">
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/9087921e2c.js" crossorigin="anonymous"></script>
+    <!--Fonts.google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Viet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="/images/verelle-logo.png"></head>
+
+</head>
+<body>
+
+    <!--SECTION1 NAVBAR-->
+
+    <section class="section1">
+        
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">         
+                  <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                      <a href="verella.html">Home</a>
+                      <a href="shop.html">Shop All</a>
+                      <a href="contact.html">Contact</a>
+                      <a href="faq.html">FAQ</a>
+                    </div>
+                  </div>
+                  <span id="menu" style="cursor:pointer" onpointerenter="menuHover()" onpointerleave="menuHoverleave()" onclick="openNav()">&#9776; <span class="menu-tag">Menu</span></span> 
+                  <a class="logo navbar-brand mx-auto" href="verella.html"><img src="images/verelle.png" class="logo" alt="Banana.com"></a>    
+                  <div class="nav-right">
+                    <div class="nav-lt">
+                      
+                     
+                      <div class="tooltip2">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <span class="tooltiptext2">Wishlist</span>
+                      </div>
+                      <div class="tooltip3">
+                        <a href="#"><i onpointerenter="" class="fa-solid fa-cart-shopping"></i></a>
+                        <span class="tooltiptext3">Cart</span>
+                      </div>
+                      <div class="tooltip4">
+                        <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                        <span class="tooltiptext4">Login</span>
+                      </div>
+                    </div>
+                  </div>      
+            </div>
+        </nav>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light hover-nav2">
+          <div class="container-fluid">
+            <div id="categories" class="hover-catergory">
+              <div class="hover-content">
+                <div class="container">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </section>
+    <!-- SECTION2 HOME-Terms and Conditions -->
+
+    <section class="about-section2">
+        <div class="home-about">
+            <div>
+             <a href="verella.html"> <i class="fa fa-home" aria-hidden="true"></i></a> / Contact Us
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION3 ABOUT US HEADING -->
+    <section class="about-section3">
+        <div class="about-head">
+            <h2>CONTACT US</h2>
+        </div>
+    </section>
+
+    <!-- SECTION 4 BODY -->
+    <section class="terms-section4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-1 col-md-1"></div>
+          <div class="col-lg-10 col-md-10 ">
+            <div class="container">
+            <div class="contact-text">
+                
+             <h1>WE’D LOVE TO HEAR FROM YOU!</h1>
+             <h4>CUSTOMER SERVICE</h4>
+             <h6>For any customer related query kindly call us at <span class="price2">(+91) 9478880000</span>.</h6>
+             <h6>Our dedicated customer support team is here to assist you. If you have any questions, concerns, or require assistance with your Verelle shopping experience, please don't hesitate to reach out. We're committed to providing excellent service and ensuring your satisfaction.             </h6>
+             <p>(Monday to Saturday from 10:00 AM - 7:00 PM IST except national holidays).</p>
+             <h6>Email us at <span class="price2">care@verellaindia.com</span></h6>
+             <br>
+            <h4>FEEDBACK AND SUGGESTIONS</h4>
+            <h6>At Verelle, we're committed to providing the best possible shopping experience for our customers. Your feedback and suggestions are invaluable to us, as they help us improve our products and services. Please take a moment to share your thoughts, ideas, and comments with us.
+            </h6>    
+
+            <div class="feedback-page">
+              <form action="submit" method="post" novalidate="novalidate" id="feedbackForm">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 your-name">
+                  <label for="Your-name"><h5>Your Name</h5></label> 
+                  <input type="text" class="form-input" data-msg-required="Please enter your name" data-rule-lettersonly="true" data-msg-lettersonly="Please enter valid name" maxlength="30" data-msg-maxlength="Please enter no more than {0} characters" placeholder="Enter your name">
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                  <label for="Your E-mail"><h5>Your E-mail</h5></label>
+                  <input type="email" class="form-input" data-msg-required="Please enter your email" placeholder="Enter your email">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                  <label for="Mobile-No"><h5>Mobile Number</h5></label>
+                  <input type="tel" maxlength="10" class="form-input" data-msg-required="Please enter your Mobile Number" data-msg-maxlength="Please enter no more than {0} characters" placeholder="87466xxxxx">
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-12">
+                  <label for="city"><h5>City</h5></label>
+                  <input type="text" class="form-input" data-msg-required="Please enter your city" data-rule-lettersonly="true" data-msg-lettersonly="Please enter valid city" maxlength="30" placeholder="Enter your city">
+                </div>
+              </div>  
+              <div class="row">
+                <div class="col-lg-9 col-md-9 form-start">
+                  <label for="query"><h5>Your query relates to</h5></label>
+                 
+                  <div class="select-wrapper">
+                    <div class="select">
+                        <div class="select__trigger"><span>Select your reason of query</span>
+                            <div class="arrow1"></div>
+                        </div>
+                        <div class="custom-options">
+                            <span class="custom-option selected" data-value="Select your reason of query">Select your reason of query</span>
+                            <span class="custom-option" data-value="I want to cancel my order">I want to cancel my order</span>
+                            <span class="custom-option" data-value="Delivery Status">Delivery Status</span>
+                            <span class="custom-option" data-value="Incomplete or Missing Product">Incomplete or Missing Product</span>
+                            <span class="custom-option" data-value="Related to Delivery Executive">Related to Delivery Executive</span>
+                            <span class="custom-option" data-value="My product was Damaged/Defective">My product was Damaged/Defective</span>
+                            <span class="custom-option" data-value="Delay in return pick-up">Delay in return pick-up</span>
+                            <span class="custom-option" data-value="I have received wrong product/ wrong size">I have received wrong product/ wrong size</span>
+                            <span class="custom-option" data-value="I want to return my product">I want to return my product</span>
+                            <span class="custom-option" data-value="I want to cancel my return">I want to cancel my return</span>
+                            <span class="custom-option" data-value="My bank account details for refund">My bank account details for refund</span>
+                            <span class="custom-option" data-value="My ordered is cancelled but i have not received my refund">My ordered is cancelled but i have not received my refund</span>
+                            <span class="custom-option" data-value="I am unable to place order/ Unable to login my account">I am unable to place order/ Unable to login my account</span>
+                            <span class="custom-option" data-value="I am unable to redeem Gift Card">I am unable to redeem Gift Card</span>
+                            <span class="custom-option" data-value="My order didn't get placed but payment got deducted">My order didn't get placed but payment got deducted</span>
+                            <span class="custom-option" data-value="Others">Others</span>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-9 col-md-9">
+                  <label for="Tell Us what you think"><h5>Tell Us what you think</h5></label>
+                  <textarea style="height: auto; padding-top: 10px;" name="feedBack-area" id="feedBack-area" cols="30" rows="10" maxlength="3000" class="form-input" placeholder="Enter your comments here" data-msg-required="Please share your feedback here"></textarea>
+                  <p id="letter-count">Letter count: 0 / 3000</p>
+                </div>
+              </div>
+              <a href=""><button type="submit" id="feedbackSubmit" class="button2">SUBMIT</button></a>
+              </form>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-1 col-md-1"></div>
+       
+          
+        </div>
+      </div>
+    </div>
+    
+    <div id="scroll-to-top">
+      <a href="#top">^</a>
+    </div>
+    </section>
+
+
+
+    <!-- FOOTER-DELIVERY -->
+
+    <section class="footer-delivery">
+          <div class="container-fluid">
+              <div class="row deliv">
+                  <div class="col-lg-2 col-md-2 col-sm-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/free-delivery.png" alt="">
+                          <h6 ><b>Free Shipping</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/exchange.png" alt="">
+                          <h6><b>Easy Exchange</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/achievement.png" alt="">
+                          <h6><b>Assured Quality</b></h6>
+  
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/love.png" alt="">
+                          <h6><b>Hand Picked</b></h6>
+  
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+    </section>
+    
+
+    <!-- footer-0 FOLLOW US-->
+    <section class="footer-0">
+        <h1>Follow Us</h1>
+      <div class="social-icons">
+        <div class="tooltip6">
+          <a href="#"><i class="fa-brands social fa-facebook-f"></i></a>  
+          <div class="tooltiptext6">Facebook</div>
+        </div>
+        <div class="tooltip6">
+          <a href="#"><i class="fa-brands social fa-twitter"></i></a>
+          <div class="tooltiptext6">Twitter</div>
+        </div>
+        <div class="tooltip6">
+          <a href="#"><i class="fa-brands social fa-instagram"></i></a>
+          <div class="tooltiptext6">Instagram</div>
+        </div>
+        <div class="tooltip6">
+          <a href="#"><i class="fa-brands social fa-google"></i></a>
+          <div class="tooltiptext6">Google</div>
+        </div>
+        <div class="tooltip6">
+          <a href="#"><i class="fa-brands social fa-pinterest-p"></i></a>
+          <div class="tooltiptext6">Pinterst</div>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer1">
+    <div class="footer-top">
+        <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-4">
+            <div class="heading"><h5>Customer Service</h5>
+            <li>
+            <a class="return" href="contact.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Contact</a>
+            </li>
+            <li>
+            <a class="return" href="return.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Return and Exchange</a>
+            </li>
+            <li>
+            <a class="return" href="student.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Student Discount</a>
+            </li>
+            <li>
+            <a class="return" href="gift.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Gift Cards</a>
+            </li>
+            <li>
+              <a class="return" href="faq.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> FAQ</a>
+            </li>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4">
+            <div class="heading"><h5>About Us</h5>
+            <li>
+                <a class="return" href="about.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> About Us</a>
+            </li>
+            <li>
+              <a class="return" href="cookie.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Cookie Policy</a>
+          </li>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4">
+            <div class="heading"><h5>My Account</h5>
+            <li>
+                <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> My Account</a>
+            </li>
+            <li>
+                <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Order History</a>
+            </li>
+            <li>
+                <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Newsletters</a>
+            </li>
+            </div>
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-0"></div>
+        <div class="col-lg-5 col-md-5 col-sm-10">
+            <div class="heading"><h4>SIGN UP FOR OUR NEWSLETTER</h4></div>
+            <p>Stay updated on events, new arrivals and more.</p>
+                <form method="post">
+                <div class="email-submit">
+                    <input type="email" name="Email" placeholder="Email Address..." id="email-form">
+                    <a href=""><button type="submit" class="subscribe">Subscribe</button></a>
+                </div>
+            </form>
+        </div>
+        </div>
+    </div>
+    <div class="navbar navbar-light bg-light fotter-bottom">
+        <div class="copyright">
+            <p>COPYRIGHT © 2023. ALL RIGHTS RESERVED</p>
+        </div>
+        <div class="footer-right">
+            <div>
+            <a href="privacypolicy.html" class="underline"><p class="Terms1">Privacy Policy<span style="visibility: hidden;">.</span></p> </a>
+            </div>
+            <div>
+            <a href="Terms.html" class="underline"><p class="Terms">Terms and Conditions</p></a>
+            </div>
+        </div>
+        
+    </div>
+    </footer>
+
+    <script src="contact-index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

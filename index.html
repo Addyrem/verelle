@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--Font-Awesome-->
+    <script src="https://kit.fontawesome.com/9087921e2c.js" crossorigin="anonymous"></script>
+    <!--Fonts.google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Viet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <title>Verelle</title>
+    <link rel="icon" type="image/x-icon" href="/images/verelle-logo.png"></head>
+
+</head>
+<body>
+
+  <!--section 1 NAVBAR-->
+  <section class="section1">
+        
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">         
+                <div id="myNav" class="overlay">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <div class="overlay-content">
+                    <a href="verella.html">Home</a>
+                    <a href="shop.html">Shop All</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="faq.html">FAQ</a>
+                  </div>
+                </div>
+                <span id="menu" style="cursor:pointer" onpointerenter="menuHover()" onpointerleave="menuHoverleave()" onclick="openNav()">&#9776; <span class="menu-tag">Menu</span></span> 
+                <a class="logo navbar-brand mx-auto" href="verella.html"><img src="images/verelle.png" class="logo" alt="Verelle.com"></a>    
+                <div class="nav-right">
+                  <div class="nav-lt">
+                    
+                   
+                    <div class="tooltip2">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <span class="tooltiptext2">Wishlist</span>
+                    </div>
+                    <div class="tooltip3">
+                      <a href="#"><i onpointerenter="" class="fa-solid fa-cart-shopping"></i></a>
+                      <span class="tooltiptext3">Cart</span>
+                    </div>
+                    <div class="tooltip4">
+                      <a href="login.html"><i class="fa-regular fa-circle-user"></i></a>
+                      <span class="tooltiptext4">Login</span>
+                    </div>
+                  </div>
+                </div>      
+          </div>
+      </nav>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light hover-nav2">
+        <div class="container-fluid">
+          <div id="categories" class="hover-catergory">
+            <div class="hover-content">
+              <div class="container">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </section>
+
+    
+
+    <!--section2 COVER PAGE-->
+
+    <section class="section2">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active img1">
+              <div class="top-heading">
+                <h1>Sleek <span class="elegance">Rebirth</span></h1>
+              </div>
+              <div class="head-2">
+                <h4>Celebrate the beauty of understated sophistication.</h4>
+              </div>
+              <a href="shop.html"><button class="button1">Shop Now</button></a>
+            
+          </div>
+          <div class="carousel-item img2">
+            <div class="top-heading3">
+              <h1>Glow <span class="elegance">Grace</span> Glamour</h1>
+            </div>
+            <div class="head-2-3 ">
+              <h4>Coming Soon</h4>
+            </div>
+            <a href="shop.html"><button class="button1">Shop Now</button></a>
+          </div>
+          <div class="carousel-item img3">
+            <div class="top-heading2">
+              <h1>Find <span class="elegance">your</span> Style</h1>
+            </div>
+            <div class="head-2-3 " style="visibility: hidden;">
+              <h4>Coming Soon</h4>
+            </div>
+            <a href="shop.html"><button class="button1 but-3-shop">Shop Now</button></a>
+          </div>
+          </div>
+        </div>
+        <button id="nextBtn" class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button id="prevBtn" class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--Section-3 CATEGORIES-->
+
+    <section class="section3 ">
+      <div class="container">
+        <div class="heading">
+          <h1>Shop by Categories</h1>
+        </div>
+        <div class="row category-pic">
+          <div class="col-lg-4 col-md-4 col-sm-12 cat-top">
+           <a href="shop.html" id="tops-link"><div class="img-wrapper"><img src="images/top-2-0.jpg" class="zoom-shop img_cat_cover" alt="Shop Tops" style="width: 100%;">
+              <div class="heading-jacket">
+                <h3>Tops</h3>
+              </div>
+            </div> 
+            </a>
+          </div>
+          
+          <div class="col-lg-4 col-md-4 col-sm-12 cat-top">
+           <a href="shop.html"><div class="img-wrapper"><img src="images/pant-2-0.jpg" class="zoom-shop img_cat_cover" alt="Shop Tops" style="width: 100%;">
+              <div class="heading-jacket">
+                <h3>Pants</h3>
+              </div>
+            </div> 
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 cat-top">
+            <a href="shop.html"><div class="img-wrapper"><img src="images/shopping/dress/dress6/hm-dress6b.jpg" class="zoom-shop img_cat_cover" alt="Shop Tops" style="width: 100%;">
+               <div class="heading-jacket">
+                 <h3>Dresses</h3>
+               </div>
+             </div> 
+             </a>
+           </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-4 FREE SHIPPING BAR-->
+
+    <section class="section4 ">
+      <div class="shipping">
+        <h5><i class="fa-solid fa-truck-fast" style="color: #fffcf4;"></i>  Free shipping on order above 1999</h5>
+      </div>
+    </section>
+
+    <!--SECTION-5 NEW ARRIVALS-->
+
+    <section class="section5 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-12" style="display: flex; align-items: center;">
+            <div class="heading-new-arrivals">
+              <h1>New Arrivals</h1>
+              <hr>
+              <p>Discover. Explore. Elevate. Uncover the latest in elegance and style, each piece thoughtfully curated to enhance your world.</p>
+              <a href="shop.html"><button class="button2">See All Products <i class="fa-solid fa-arrow-right fa-xs" style="color: #fffcf4; padding-left: 5px;"></i></button></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 wrap-top">
+            <a href="products_top-2.html"> <div class="img-wrapper-1"><img src="images/shopping/tops/top2/top-2a.jpg" class="zoom-1 img-new-arr-1" alt="Dress" style="width: 100%; height: auto;">
+            <div class="img-text-hot">
+              HOT
+            </div>
+            <div class="add-to-cart">
+              <div class="row add-row">
+                <div class="col-8">
+                  <a href=""><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                </div>
+              <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                <span class="tooltip5">
+                  <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                  <div class="tooltiptext5">Wishlist</div>
+                </span>
+              </div> 
+            </div>     
+            </div>
+          </div>
+        </a>
+
+          <div class="heading-brand">
+            Summer Collection
+          </div>
+            <div class="buy-now-wrapper">
+              <div class="bliss">
+                <a href="products_top-2.html"><h5>Gathered Jersey Top</h5></a>
+              </div>
+              <div class="price">
+                <h6>₹599</h6>
+              </div>
+              <div class="buy-now">
+                <div class="buy-now-shop-more-wrapper">
+                <a href="products_top-2.html"><h6>Buy Now </h6></a> | <a href="shop.html"><h6>Shop More</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col-lg-3 col-md-4 wrap-top">
+            <a href="products_dress-4.html"> <div class="img-wrapper-1"><img src="images/shopping/dress/dress4/hm-dress4a.jpeg" class="zoom-1 img-new-arr-1" alt="Dress" style="width: 100%; height: auto;">
+              <div class="img-text-new">NEW</div>
+              <div class="add-to-cart">
+                <div class="row add-row">
+                  <div class="col-8">
+                    <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                  </div>
+                <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                  <span class="tooltip5">
+                    <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                    <div class="tooltiptext5">Wishlist</div>
+                  </span>
+                </div> 
+              </div>     
+              </div>
+          </div>
+          <div class="heading-brand">
+            Summer Collection
+          </div>
+          </a>
+            <div class="buy-now-wrapper">
+              <div class="bliss">
+                <a href="products_dress-4.html"><h5>Cotton halterneck dress</h5></a>
+              </div>
+              <div class="price">
+                  <div class="discount-red"><h6>₹1279</h6></div>
+                  <div class="discount-cut-line"><h6>₹1599</h6></div>
+                </div>
+              <div class="buy-now">
+                <div class="buy-now-shop-more-wrapper">
+                <a href="products_dress-4.html"><h6>Buy Now </h6></a> | <a href="shop.html"><h6>Shop More</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-lg-3 col-md-4 wrap-top">
+            <a href="product_pant-5.html"> <div class="img-wrapper-1"><img src="images/shopping/pants/pants5/pants-5a.jpg" class="zoom-1 img-new-arr-1" alt="Dress" style="width: 100%; height: auto;">
+              <div class="img-text-hot">
+                HOT
+              </div>
+              <div class="add-to-cart">
+                <div class="row add-row">
+                  <div class="col-8">
+                    <a href="#"><div class="add"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #fffcf4;"></i>  Add to Cart</div></a>
+                  </div>
+                  <div class="col-4" class="wishlist-heart-new" style="text-align: right;">
+                    <span class="tooltip5">
+                      <a href="#"><i class="fa-regular fa-heart fa-md " style="color: #fffcf4; font-size: 20px;"></i></a>
+                      <div class="tooltiptext5">Wishlist</div>
+                    </span>
+                  </div> 
+              </div>     
+            </div>
+          </div>
+          <div class="heading-brand">
+            Summer Collection
+          </div>
+          </a>
+            <div class="buy-now-wrapper">
+              <div class="bliss">
+                <a href="product_pant-5.html"><h5>Comfy marl joggers</h5></a>
+              </div>
+              <div class="price">
+                <h6>₹1299</h6>
+              </div>
+              <div class="buy-now">
+                <div class="buy-now-shop-more-wrapper">
+                <a href="product_pant-5.html"><h6>Buy Now </h6></a> | <a href="shop.html"><h6>Shop More</h6></a>
+                </div>
+              </div>
+            </div>
+          </div>          
+        </div>
+      </div>
+    </section> 
+    
+    <!-- Section-6 SUMMER COLLECTION-->
+    
+    <section class="section6 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 summer">
+            <div class="summer-heading">
+              <h1>The Summer Collection</h1>
+              <hr>
+              <h6>Celebrate the season of sun and style with our exquisite Summer Dress Collection. Discover the epitome of elegance, where each dress is a masterpiece of timeless beauty. Embrace the warmth of summer in sheer sophistication. Your perfect summer starts here.</h6>
+              <a href="shop.html" ><button class="button2">Shop Now <i class="fa-solid fa-arrow-right fa-xs" style="color: #fffcf4; padding-left: 5px;"></i></button></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <video src="images/pexels2.mp4" style="width: 100%;" autoplay loop muted></video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION-7 CUSTOMER REVIEW-->
+    <section class="section7 ">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6  col-md-3"> </div>
+          <div class="col-lg-6 col-md-8">
+            <div class="heading7">
+              <h1>What Our Customers Say</h1><hr>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="block-wrapper">
+                      <div class="block-body">
+                        <div class="block-header">
+                          <i class="fa-solid fa-quote-left fa-2xl" style="color: #c6d4db;"></i>
+                        </div>
+                        <div class="block-text">
+                          I used to be a skeptic about online shopping, but this brand changed that. Every purchase feels like a fashion victory, and I eagerly await new collections. The seamless blend of quality and style has turned me into a loyal fan.</div>
+                        <br>
+                        <div class="writer">
+                          <em><b>- Sanah Singhania</b></em>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="block-wrapper">
+                      <div class="block-body">
+                        <div class="block-header">
+                          <i class="fa-solid fa-quote-left fa-2xl" style="color: #c6d4db;"></i>
+                        </div>
+                        <div class="block-text">
+                          I've always been a discerning shopper, and I can confidently say that this brand is a cut above the rest. What sets them apart is the perfect blend of style, comfort, and affordability. Each piece feels like it was designed just for me.                       <br>
+                        <div class="writer">
+                          <em><b>- Priya Khosla</b></em>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="block-wrapper">
+                      <div class="block-body">
+                        <div class="block-header">
+                          <i class="fa-solid fa-quote-left fa-2xl" style="color: #c6d4db;"></i>
+                        </div>
+                        <div class="block-text">
+                          I've received countless compliments on their pieces, and I can't help but recommend this brand to everyone I know. It's become my one-stop-shop for all things fashion, and I eagerly await each new collection.                        </div>
+                        <br>
+                        <div class="writer">
+                          <em><b>- Zara Khan</b></em>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <div class="block-wrapper">
+                      <div class="block-body">
+                        <div class="block-header">
+                          <i class="fa-solid fa-quote-left fa-2xl" style="color: #c6d4db;"></i>
+                        </div>
+                        <div class="block-text">
+                          This brand has transformed my wardrobe. The quality, style, and affordability are unmatched. I feel like a fashion-forward trendsetter with every purchase. It's an absolute game-changer! I can't imagine my closet without it.                        <div class="writer">
+                          <em><b>- Nishita Sein</b></em>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            </div>
+            
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <!--SECTION-8  LOOKBOOK-->
+      
+    <section class="section8">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="lookbook">
+                    <h1>THE LOOKBOOK</h1>
+                    <hr class="look">
+                </div>
+            </div>
+        </div>
+        <div class="look-container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/longbook5.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/winter-wear.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/longbook4.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/spring.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/rack-clothes-store.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/longbook6.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/outfit.jpg" alt="">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 p-0">
+                  <div class="img-w">
+                    <img class="look-img" src="images/longbook/longbook3.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <!-- The modal for zoomed-in image -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modalImage" class="modal1-content">
+    </div>
+          
+    <div id="scroll-to-top">
+      <a href="#top">^</a>
+    </div>
+    </section>
+
+    <!-- SECTION-9 NEED HELP-->
+    <section class="section9 ">
+      <div class="cont">
+        <div class="box-1">
+          <div class="box-body">
+            
+            <div class="box-text">
+              <div class="row bt">
+                <div class="col-lg-9 col-md-12 col-sm-12">
+                  <div class="box-heading">
+                    <h1>NEED HELP DECIDING?
+                    </h1>
+                  </div>
+                  <p>Struggling to find your fashion groove? Dial our style hotline now and let our fashion experts guide you to your perfect look.</p>
+                </div>
+                  <div class="col-lg-3 col-md-12 col-sm-12" style="display: flex;align-items: center;">
+                  <a href="contact.html"><button class="button3">(+91) 947-888-0000</button></a>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- FOOTER-DELIVERY -->
+
+        <section class="footer-delivery">
+          <div class="container-fluid foot-delivery">
+              <div class="row deliv">
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/free-delivery.png" alt="">
+                          <h6 ><b>Free Shipping</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/exchange.png" alt="">
+                          <h6><b>Easy Exchange</b></h6>
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/achievement.png" alt="">
+                          <h6><b>Assured Quality</b></h6>
+  
+                      </div>
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-sm-3 col-3">
+                      <div class="ship-img">
+                          <img class="img-foot" src="images/footer-delivery/love.png" alt="">
+                          <h6><b>Hand Picked</b></h6>
+  
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </section>
+
+    <!-- footer-0 FOLLOW US-->
+    <section class="footer-0">
+            <h1>Follow Us</h1>
+          <div class="social-icons">
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-facebook-f"></i></a>  
+              <div class="tooltiptext6">Facebook</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-twitter"></i></a>
+              <div class="tooltiptext6">Twitter</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-instagram"></i></a>
+              <div class="tooltiptext6">Instagram</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-google"></i></a>
+              <div class="tooltiptext6">Google</div>
+            </div>
+            <div class="tooltip6">
+              <a href="#"><i class="fa-brands social fa-pinterest-p"></i></a>
+              <div class="tooltiptext6">Pinterst</div>
+            </div>
+          </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer class="footer1">
+      <div class="footer-top">
+          <div class="row">
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>Customer Service</h5>
+              <li>
+              <a class="return" href="contact.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Contact</a>
+              </li>
+              <li>
+              <a class="return" href="return.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Return and Exchange</a>
+              </li>
+              <li>
+              <a class="return" href="student.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Student Discount</a>
+              </li>
+              <li>
+              <a class="return" href="gift.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Gift Cards</a>
+              </li>
+              <li>
+                <a class="return" href="faq.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> FAQ</a>
+              </li>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>About Us</h5>
+              <li>
+                  <a class="return" href="about.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> About Us</a>
+              </li>
+              <li>
+                <a class="return" href="cookie.html"><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Cookie Policy</a>
+            </li>
+              </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-4">
+              <div class="heading"><h5>My Account</h5>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> My Account</a>
+              </li>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Order History</a>
+              </li>
+              <li>
+                  <a class="return" href=""><i class="fa-solid fa-chevron-right fa-2xs" style="color: #a2a1a0;"></i> Newsletters</a>
+              </li>
+              </div>
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-0"></div>
+          <div class="col-lg-5 col-md-5 col-sm-10">
+              <div class="heading"><h4>SIGN UP FOR OUR NEWSLETTER</h4></div>
+              <p>Stay updated on events, new arrivals and more.</p>
+                  <form method="post">
+                  <div class="email-submit">
+                      <input type="email" name="Email" placeholder="Email Address..." id="email-form">
+                      <a href=""><button type="submit" class="subscribe">Subscribe</button></a>
+                  </div>
+              </form>
+          </div>
+          </div>
+      </div>
+      <div class="navbar navbar-light bg-light fotter-bottom">
+          <div class="copyright">
+              <p>COPYRIGHT © 2023. ALL RIGHTS RESERVED</p>
+          </div>
+          <div class="footer-right">
+              <div>
+              <a href="privacypolicy.html" class="underline"><p class="Terms1">Privacy Policy<span style="visibility: hidden;">.</span></p> </a>
+              </div>
+              <div>
+              <a href="Terms.html" class="underline"><p class="Terms">Terms and Conditions</p></a>
+              </div>
+          </div>
+          
+      </div>
+      </footer>
+
+
+    
+    <script src="shop-index(js).js"></script>
+    <script>
+      document.getElementById('tops-link').addEventListener('click', function (event) {
+        event.preventDefault();
+        filterProductsByCategory('top');
+      });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
